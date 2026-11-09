@@ -3,7 +3,7 @@
 Portfolio website documenting 23 intramural sports podium finishes at East Texas A&M University
 across 5 semesters (Fall 2024 – Fall 2026), backed by a reproducible Python/DuckDB analytics pipeline.
 
-**Live site:** _URL to be added after deployment_
+**Live site:** https://pushpullleg.github.io/btc-portfolio/
 
 ## What this is
 

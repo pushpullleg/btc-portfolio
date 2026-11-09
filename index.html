@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Beyond the Classroom — Mukesh Ravichandran's intramural sports analytics portfolio. 23 medals across 9 sports, 5 semesters." />
+    <title>Beyond the Classroom · Mukesh Ravichandran</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <nav id="site-nav" aria-label="Main navigation">
+      <div class="nav-inner">
+        <a href="#overview" class="nav-brand" aria-label="Beyond the Classroom — home">
+          <span class="nav-brand-title">Beyond the Classroom</span>
+        </a>
+        <button class="nav-hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="nav-links" role="list">
+          <li><a href="#overview"    class="nav-link" data-section="overview">Overview</a></li>
+          <li><a href="#explorer"   class="nav-link" data-section="explorer">Explorer</a></li>
+          <li><a href="#journey"    class="nav-link" data-section="journey">Journey</a></li>
+          <li><a href="#engineering" class="nav-link" data-section="engineering">Engineering</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main id="main-content">
+      <section id="overview"    aria-label="Executive Overview"></section>
+      <section id="explorer"    aria-label="Achievement Explorer"></section>
+      <section id="journey"     aria-label="University Journey"></section>
+      <section id="engineering" aria-label="Engineering Case Study"></section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>Built with TypeScript · Vite · DuckDB · Tableau Public</p>
+        <p>Data sourced from IMLeagues platform records · 2024–2026</p>
+      </div>
+    </footer>
+  </body>
+</html>
